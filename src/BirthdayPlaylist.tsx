@@ -66,7 +66,7 @@ export default function BirthdayPlaylist() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#121212] text-white">
+    <div className="w-full bg-[#121212] text-white">
       {/* Top bar */}
       <div className="flex items-center justify-between px-4 md:px-6 h-14 bg-black/60 border-b border-white/5">
         <div className="flex items-center gap-3">
