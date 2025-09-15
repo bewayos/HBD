@@ -133,7 +133,7 @@ export default function BirthdayPlaylist() {
 
           {/* Controls row */}
           <div className="px-4 md:px-6 py-4 flex items-center gap-4 border-b border-white/5">
-            <button className="h-12 w-12 rounded-full bg-[#1DB954] grid place-items-center text-black font-bold text-xl">▶</button>
+            <button className="h-12 w-12 rounded-full bg-[#1DB954] grid place-items-center text-black font-bold text-xl">➤</button>
             <button className="h-12 w-12 rounded-full bg-[#2a2a2a] grid place-items-center">＋</button>
             <button className="h-12 w-12 rounded-full bg-[#2a2a2a] grid place-items-center">⋯</button>
           </div>
@@ -144,7 +144,7 @@ export default function BirthdayPlaylist() {
               <div className="text-center">#</div>
               <div>Назва</div>
               <div className="hidden md:block">Список</div>
-              <div className="text-right">⏱️</div>
+              <div className="text-right">...</div>
             </div>
             {tracks.map((t, idx) => (
               <button
